@@ -39,6 +39,8 @@ numpy
 scikit-learn
 matplotlib
 📊 Resultados
+![TMatriz de confusção](matriz_confusao.png)
+
 Melhor configuração: rbf, C=10, gamma=0.01
 Acurácia no teste: ~75,32%
 Bom equilíbrio entre precisão e recall
