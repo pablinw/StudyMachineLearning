@@ -34,19 +34,22 @@ Fronteira de decisão gerada a partir de duas features relevantes (Glucose e BMI
 📍 Recomendado rodar no Google Colab (ambiente já pronto).
 
 Requirements
-pandas
-numpy
-scikit-learn
-matplotlib
-📊 Resultados
-![TMatriz de confusção](matriz_confusao.png)
+    pandas
+    numpy
+    scikit-learn
+    matplotlib
 
-Melhor configuração: rbf, C=10, gamma=0.01
-Acurácia no teste: ~75,32%
-Bom equilíbrio entre precisão e recall
-Recall da classe diabético é destaque (importância clínica).
-Matriz de Confusão
-matriz de confusao
+
+
+📊 Resultados
+    Melhor configuração: rbf, C=10, gamma=0.01
+    Acurácia no teste: ~75,32%
+    Bom equilíbrio entre precisão e recall
+    Recall da classe diabético é destaque (importância clínica).
+    Matriz de Confusão
+    matriz de confusao
+
+![TMatriz de confusção](matriz_confusao.png)
 
 Curvas ROC e Precision-Recall
 Comparação entre SVM Linear (KFold=10) e SVM RBF (StratifiedKFold=3):
